@@ -1,0 +1,9 @@
+UPDATE tm_usu_usuario SET 
+
+	usu_login =  'admin',
+	usu_pass =  '827ccb0eea8a706c4c34a16891f84e7b'
+				
+WHERE usu_id = '1'
+
+# Usuario: admin
+# Pass: 12345

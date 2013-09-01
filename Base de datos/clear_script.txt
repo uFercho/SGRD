@@ -1,0 +1,4 @@
+delete from tm_cam_campana;
+delete from tm_scu_sobrecarga_unidad;
+delete from tm_sce_sobrecarga_equipo;
+delete from tm_tre_tree_menu;

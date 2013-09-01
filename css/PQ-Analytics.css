@@ -1,0 +1,272 @@
+/*!
+ * Ext JS Library 3.3.0
+ * Copyright(c) 2006-2010 Ext JS, Inc.
+ * licensing@extjs.com
+ * http://www.extjs.com/license
+ */
+body {
+      font:normal 12px verdana,tahoma,helvetica;
+      margin:0;
+      padding:0;
+      border:0 none;
+      overflow:hidden;
+      height:100%;
+      background-color: #EFEFEF;
+  }
+
+a {
+    color:#15428B;
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+#header {
+    background: #7F99BE url(../images/layout-browser-hd-bg.gif) repeat-x center;
+}
+#header h1 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: normal;
+    padding: 5px 10px;
+}
+#start-div h2 {
+    font-size: 12px;
+    color: #555;
+    padding-bottom:5px;
+    border-bottom:1px solid #C3D0DF;
+}
+#start-div p {
+    margin: 10px 0;
+}
+#details-panel h2 {
+    padding:10px 10px 0;
+    font-size:12px;
+    color:#15428B;
+}
+#details-panel p {
+    padding:10px 10px 0;
+}
+#details-panel pre {
+    border-top:1px dotted #ddd;
+    border-bottom:1px dotted #ddd;
+    margin-top:10px;
+    padding:0 5px;
+    background:#f5f5f5;
+}
+#details-panel .details-info {
+    margin:15px;
+    padding:15px;
+    border:1px dotted #999;
+    color:#555;
+    background: #f9f9f9;
+}
+/*.x-tab-panel-header-plain .x-tab-strip-top {
+    background: #DFE8F6 url(../ext/resources/images/default/tabs/tab-strip-bg.gif) repeat-x scroll center bottom !important;
+}*/
+.custom-accordion .x-panel-body{
+    background:#ffe;
+    text-align:center;
+}
+.custom-accordion .x-panel-body p {
+    font-family:georgia,serif;
+    padding:20px 80px !important;
+    font-size:18px;
+    color:#15428B;
+}
+.custom-accordion .x-panel-header-text {
+    font-weight:bold;
+    font-style:italic;
+    color:#555;
+}
+#form-panel .x-panel-footer {
+    background:#DFE8F6;
+    border-color:#99BBE8;
+    border-style:none solid solid;
+    border-width:0pt 1px 1px;
+}
+#table-panel .x-table-layout {
+    padding:5px;
+}
+#table-panel .x-table-layout td {
+    vertical-align:top;
+    padding:5px;
+    font-size: 11px;
+}
+.bold{
+	font-weight: bold;
+}
+.tabla_resumen{
+	float:left; 
+	width:100%;
+	font-size:12px; color:#444;
+	background: #FFF;
+	border: 1px solid #CCC;
+}
+.msg .x-box-mc {
+    font-size:14px;
+}
+#msg-div {
+    position:absolute;
+    left:500px;
+    top:10px;
+    width:400px;
+    z-index:20000;
+}
+.tabla_resumen td{
+	padding: 0px 5px 0px 5px;
+}
+.icon-send {
+    background-image:url(../images/email_go.png) !important;
+}
+.icon-save {
+    background-image:url(../images/disk.png) !important;
+}
+.icon-print {
+    background-image:url(../images/printer.png) !important;
+}
+.icon-spell {
+    background-image:url(../images/spellcheck.png) !important;
+}
+.icon-attach {
+    background-image:url(../images/page_attach.png) !important;
+}
+.icon-addFile {
+    background-image:url(../images/add.png) !important;
+}
+.icon-upFile {
+    background-image:url(../images/up.png) !important;
+}
+.icon-folderExplore {
+    background-image:url(../images/folder_explore.png) !important;
+}
+.icon-grid {
+    background-image:url(../images/grid.png) !important;
+}
+.icon-expand-all {
+    background-image:url(../images/expand-all.gif) !important;
+}
+.icon-collapse-all {
+    background-image:url(../images/collapse-all.gif) !important;
+}
+.icon-chart {
+    background-image:url(../images/chart.png) !important;
+}
+.icon-chartBar {
+    background-image:url(../images/chart_bar.png) !important;
+}
+.icon-chartLine {
+    background-image:url(../images/chart_line.png) !important;
+}
+.icon-chartCurve {
+    background-image:url(../images/chart_curve.png) !important;
+}
+.icon-root {
+    background-image:url(../images/tree-menu/root.png) !important;
+}
+.icon-menu {
+    background-image:url(../images/menu.png) !important;
+}
+.icon-tools {
+    background-image:url(../images/tree-menu/tools.png) !important;
+}
+.icon-campana {
+    background-image:url(../images/tree-menu/campana.png) !important;
+}
+.icon-campana-add {
+    background-image:url(../images/tree-menu/campana_add.png) !important;
+}
+.icon-muestra {
+    background-image:url(../images/tree-menu/muestra.png) !important;
+}
+.icon-muestra-add {
+    background-image:url(../images/tree-menu/muestra_add.png) !important;
+}
+.icon-muestra-save {
+    background-image:url(../images/tree-menu/muestra_save.png) !important;
+}
+.icon-user {
+    background-image:url(../images/login-form/user.png) !important;
+}
+.icon-user-go {
+    background-image:url(../images/login-form/user_go.png) !important;
+}
+.icon-user-add {
+    background-image:url(../images/login-form/user_add.png) !important;
+}
+.icon-mto {
+    background-image:url(../images/mantenimiento/mto.png) !important;
+}
+.icon-ut {
+    background-image:url(../images/mantenimiento/ut.png) !important;
+}
+.icon-eq {
+    background-image:url(../images/mantenimiento/eq.png) !important;
+}
+.icon-saveMto {
+    background-image:url(../images/mantenimiento/save.png) !important;
+}
+.icon-cancelMto {
+    background-image:url(../images/mantenimiento/cancel.png) !important;
+}
+.email-form .x-panel-mc .x-panel-tbar .x-toolbar {
+    border-top:1px solid #C2D6EF;
+    border-left:1px solid #C2D6EF;
+    border-bottom:1px solid #99BBE8;
+    margin:-5px -4px 0;
+}
+.inner-tab-custom .x-border-layout-ct {
+    background: #fff;
+}
+#tabla-MPM {
+	/*width:99%;*/
+	border-collapse:collapse;
+	margin: 5px 5px 5px 5px;
+	-moz-border-radius:15 px;
+}
+#tabla-MPM td, #tabla-MPM th {
+	border:1px solid #ADADAD;
+	padding:3px 7px 2px 7px;
+}
+#tabla-MPM th {
+	text-align:left;
+	padding-top:5px;
+	padding-bottom:4px;
+	background-color:#e2e6e7;
+}
+#tabla-MPM th.alt
+{
+	border-left:0px;
+	border-top:0px;
+	background-color:transparent;
+}
+#tabla-MPM td:hover
+{
+	font-weight: bold;
+}
+#tabla-MPM td.alt
+{
+	background-color:#e2e6e7;
+}
+
+/* style rows on mouseover */
+.x-grid3-row-over .x-grid3-cell-inner {
+	font-weight: bold;
+}
+
+start-div {
+    margin: 0px;
+}
+
+#fondoestirado {
+    width: 100%;
+    height: 100%;
+}
+
+#fondoestirado img {
+    width: 100%;
+    height: 100%;
+}
+

@@ -1,0 +1,16 @@
+"UP 2210"
+"Version"	"1.61"	"1.61"
+"Serialnumber:"	26001512
+"Main comment"	"Measure 1"
+"Start:"	"2010-09-01"	"12:50:00"
+"End:"	"2010-09-10"	"08:36:08"
+"Storage interval:"	"0:10:00"
+
+
+
+"Channel/Method"	"Comment"	"Range"	"Min"	"Max"
+
+
+
+
+Date	Time	
